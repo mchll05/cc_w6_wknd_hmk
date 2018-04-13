@@ -9,7 +9,7 @@ public class DiningRoomTest {
 
     @Before
     public void before(){
-        diningRoom = new DiningRoom("Hell's Kitchen", 75);
+        diningRoom = new DiningRoom("Hell's Kitchen", 25, 75);
     }
 
     @Test
@@ -22,4 +22,10 @@ public class DiningRoomTest {
         assertEquals(75, diningRoom.getDinerLimit());
     }
 
+    @Test
+    public void hasOccupancy(){
+        assertEquals(25, diningRoom.getOccupancy());
+    }
 }
+
+

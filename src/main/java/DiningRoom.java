@@ -1,10 +1,11 @@
 public class DiningRoom extends Room{
 
     String roomName;
+    int occupancy;
     int dinerLimit;
 
-    public DiningRoom(String roomName, int dinerLimit){
-        super(roomName);
+    public DiningRoom(String roomName, int occupancy, int dinerLimit){
+        super(roomName, occupancy);
         this.dinerLimit = dinerLimit;
     }
 

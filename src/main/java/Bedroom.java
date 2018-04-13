@@ -1,11 +1,12 @@
 public class Bedroom extends Room {
 
     String roomName;
+    int occupancy;
     BedroomType type;
     double rate;
 
-    public Bedroom(String roomName, BedroomType type, double rate){
-        super(roomName);
+    public Bedroom(String roomName, int occupancy, BedroomType type, double rate){
+        super(roomName, occupancy);
         this.type = type;
         this.rate = rate;
     }

@@ -1,10 +1,12 @@
 public class ConferenceRoom extends Room{
 
     String roomName;
+    int occupancy;
     double dailyRate;
 
-    public ConferenceRoom(String roomName, double dailyRate){
-        super(roomName);
+
+    public ConferenceRoom(String roomName, int occupancy, double dailyRate){
+        super(roomName, occupancy);
         this.dailyRate = dailyRate;
     }
 

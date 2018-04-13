@@ -1,6 +1,5 @@
 public enum BedroomType {
-
-    PENTHOUSE(6),
+    PRESIDENTIAL(6),
     FAMILY(5),
     DOUBLE(2),
     SINGLE(1);

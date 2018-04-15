@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 
         @Before
         public void before() {
-            hotel = new Hotel("The Overlook Hotel", 100);
+            hotel = new Hotel("The Overlook Hotel");
         }
 
         @Test
